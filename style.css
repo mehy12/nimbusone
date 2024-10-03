@@ -604,19 +604,20 @@ img {
   --header-height: 3rem;
   /*========== Colors ==========*/
 /*========== Colors ==========*/
+/*========== Colors for Black Theme ==========*/
 --hue-color: 206;
---black-color: hsl(var(--hue-color), 4%, 95%); 
---green-color: ;
---black-color-alt: hsl(var(--hue-color), 4%, 92%); 
---title-color: hsl(var(--hue-color), 4%, 5%); 
---text-color: hsl(var(--hue-color), 4%, 25%);  
---text-color-light: hsl(var(--hue-color), 4%, 35%); 
---white-color: #000; 
---body-color: hsl(var(--hue-color), 4%, 94%); 
---container-color: hsl(var(--hue-color), 4%, 90%); 
---text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 76%), hsl(var(--hue-color), 4%, 92%)); 
---scroll-thumb-color: hsl(var(--hue-color), 4%, 84%); 
---scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 80%);
+--black-color: hsl(var(--hue-color), 4%, 4%); /* Dark background */
+--white-color: #FFF; /* White text */
+--black-color-alt: hsl(var(--hue-color), 4%, 8%);
+--title-color: hsl(var(--hue-color), 4%, 95%); /* Light title color */
+--text-color: hsl(var(--hue-color), 4%, 75%); /* Light text color */
+--text-color-light: hsl(var(--hue-color), 4%, 65%);
+--body-color: hsl(var(--hue-color), 4%, 6%); /* Dark body background */
+--container-color: hsl(var(--hue-color), 4%, 10%); /* Slightly lighter for containers */
+--text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+--scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
+--scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
+
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -661,18 +662,20 @@ img {
 :root {
   --header-height: 3rem;
   /*========== Colors ==========*/
-  --hue-color: 206;
-  --black-color: hsl(var(--hue-color), 4%, 95%); 
-  --black-color-alt: hsl(var(--hue-color), 4%, 92%); 
-  --title-color: hsl(var(--hue-color), 4%, 5%); 
-  --text-color: hsl(var(--hue-color), 4%, 25%);  
-  --text-color-light: hsl(var(--hue-color), 4%, 35%); 
-  --white-color: #000; 
-  --body-color: hsl(var(--hue-color), 4%, 94%); 
-  --container-color: hsl(var(--hue-color), 4%, 90%); 
-  --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 76%), hsl(var(--hue-color), 4%, 92%)); 
-  --scroll-thumb-color: hsl(var(--hue-color), 4%, 84%); 
-  --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 80%);
+  /*========== Colors for Black Theme ==========*/
+--hue-color: 206;
+--black-color: hsl(var(--hue-color), 4%, 4%); /* Dark background */
+--white-color: #FFF; /* White text */
+--black-color-alt: hsl(var(--hue-color), 4%, 8%);
+--title-color: hsl(var(--hue-color), 4%, 95%); /* Light title color */
+--text-color: hsl(var(--hue-color), 4%, 75%); /* Light text color */
+--text-color-light: hsl(var(--hue-color), 4%, 65%);
+--body-color: hsl(var(--hue-color), 4%, 6%); /* Dark body background */
+--container-color: hsl(var(--hue-color), 4%, 10%); /* Slightly lighter for containers */
+--text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+--scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
+--scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
+
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
   --biggest-font-size: 5rem;
